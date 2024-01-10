@@ -1,0 +1,23 @@
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.button{
+    margin: 50px ;
+}
+.container_cad{
+    width: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container_cad input{
+    margin: 0 0 20px 0 ;
+    padding: 20px;
+}
