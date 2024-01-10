@@ -1,0 +1,22 @@
+footer {
+  box-sizing: border-box;
+  width: 100%;  
+  margin: 0 auto;
+  padding: 2rem;
+border-radius: 8px;
+background-color: #1a1a1a;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #fff;
+}
+p {
+  text-align: center;
+}
+
+
+footer:hover {
+  border-color: #646cff;
+}

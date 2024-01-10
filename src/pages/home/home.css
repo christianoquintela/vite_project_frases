@@ -1,0 +1,15 @@
+.container_home{
+    width: 100%;
+    
+
+}
+
+.container_main{
+    box-sizing: border-box;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 30px 50px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    
+}

@@ -1,14 +1,19 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from '../pages/home/home';
+import Cadastro from '../pages/cadastro/cadastro';
 
-function App() {
+function Rotas() {
   return (
-    <div>
-      <h1>Iniciando o projeto!</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' Component={Home} />
+        <Route path='/Cadastro' Component={Cadastro} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export default Rotas;
 
 /* 
 import reactLogo from './assets/react.svg'
