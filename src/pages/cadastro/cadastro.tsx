@@ -21,33 +21,40 @@ export default function Cadastro() {
 
     // if (!frase) return 'Sem frase!';
     return (
-        <div className='container'>
+        <div className="container">
             <Header />
             <section className="container_cad">
-              <label>Titulo:</label>
+                <h1>Cadastre suas frases ou dicas.</h1>
+                <p>
+                    Elas serão mostradas aleatoriamente quando clicar no
+                    botão:"Frases aleatórias cadastradas"
+                </p>
+                <label>Titulo:</label>
                 <input
-                value={titulo}
+                    value={titulo}
                     type="text"
                     placeholder="titulo"
                     onChange={(e) => setTitulo(e.target.value)}
                 />
                 <label>Frase:</label>
                 <input
-                value={frase}
+                    value={frase}
                     type="text"
                     placeholder="frase"
                     onChange={(e) => setFrase(e.target.value)}
                 />
                 <label>Autor da Frase:</label>
                 <input
-                value={autor}
+                    value={autor}
                     type="text"
                     placeholder="autor"
                     onChange={(e) => setAutor(e.target.value)}
                 />
                 {/* <textarea name='frase' id='' cols='30' rows='10'></textarea> */}
             </section>
-            <button onClick={createFrase} className='button'>Criando a frase!</button>
+            <button onClick={createFrase} className="button">
+                Criar frase!
+            </button>
 
             <Footer />
         </div>
